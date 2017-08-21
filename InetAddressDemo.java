@@ -5,7 +5,7 @@ import java.net.*;
 
 public class InetAddressDemo {
 	public static void main(String[] args) {
-		InetAddress intAddress;			//创建Inet4Address对象
+		InetAddress intAddress;			//创建InetAddress对象
 	
 	try {											//try语句块捕捉可能出现的异常
 		intAddress=InetAddress.getLocalHost();		//实例化对象
